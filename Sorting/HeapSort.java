@@ -10,7 +10,7 @@ public class HeapSort {
 		// Build the max heap
 		maxHeap.buildMaxHeap(arr);
 		int heapSize = arr.size();
-		for(int i = arr.size()-1; i >= 0; i--) {
+		for(int i = arr.size()-1; i >= 1; i--) {
 			int temp = arr.get(i);
 			arr.set(i, arr.get(0));
 			arr.set(0, temp);
