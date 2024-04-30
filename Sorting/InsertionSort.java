@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class InsertionSort_Ascending_Order {
+public class InsertionSort {
 
 	// No need to return anything, since Insertion sort
 	// sorts the array in-place.
